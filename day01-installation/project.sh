@@ -1,6 +1,7 @@
 #!/bin/bash
-# Docker Installation Script for Ubuntu
-
+# Day 2: What is Docker? Install Docker on Linux
+# Author: <Nahid Hasan>
+# Date: $(17/08/2025)
 echo "Updating system..."
 sudo apt-get update -y
 
