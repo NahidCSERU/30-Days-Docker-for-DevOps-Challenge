@@ -14,20 +14,20 @@ This project demonstrates the difference between **Docker Images** and **Docker 
 
 ## ▶️ How to Run
 
-1. **Make scripts executable:**
+**1. Make scripts executable:**
 ```bash
 chmod +x scripts/*.sh
 ```
-2. **Build and run the container:**  
+**2. Build and run the container:**  
 ```
 cd scripts  
 ./run_container.sh
 ``` 
-3. **Check running containers and images:**
+**3. Check running containers and images:**
 ```
 ./list_images_containers.sh
 ```
-4. **Open in browser:**
+**4. Open in browser:**
 ```
 http://localhost:5000
 ```
