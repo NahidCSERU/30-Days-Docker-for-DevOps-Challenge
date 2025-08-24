@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Day-07:  build docker image
+# Day-08:  build docker image
 # Author: <Nahid Hasan>
 # Date: $(24/08/2025)
 
