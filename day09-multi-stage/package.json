@@ -1,0 +1,12 @@
+{
+  "name": "day09-multi-stage",
+  "version": "1.0.0",
+  "description": "Day 9: Multi-stage Dockerfile Node.js optimized project",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
