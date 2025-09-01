@@ -21,7 +21,7 @@ day16-php-nginx/
 
 ### 1. Clone the repo:
 ```
-git clone https://github.com/yourusername/day16-php-nginx.git
+git clone https://github.com/NahidCSERU/30-Days-Docker-for-DevOps-Challenge.git
 cd day16-php-nginx
 ```
 ### 2. Start containers:
