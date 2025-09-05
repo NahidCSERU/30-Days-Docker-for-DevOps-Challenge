@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  app:
+    build: ./app
+    network_mode: host
+    # No need to publish ports, host network is shared
