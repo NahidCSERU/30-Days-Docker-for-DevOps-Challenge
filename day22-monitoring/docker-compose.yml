@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  web:
+    image: nginx:latest
+    container_name: nginx_web
+    ports:
+      - "8080:80"
+    restart: always
+  app:
+    image: alpine:latest
+    container_name: alpine_app
+    command: ["sh", "-c", "while true; do echo Hello from Alpine; sleep 5; done"]
+    restart: always
