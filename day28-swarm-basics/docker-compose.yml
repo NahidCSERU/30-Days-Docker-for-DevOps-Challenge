@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  app1:
+    build: ./service/app1
+    ports:
+      - "8081:80"
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+
+  app2:
+    build: ./service/app2
+    ports:
+      - "8082:80"
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
