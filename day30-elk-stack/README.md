@@ -23,7 +23,7 @@ It provides centralized log collection, parsing, and visualization for DevOps us
 
 ### 1️⃣ Clone Repository
 ```
-git clone https://github.com/your-username/day30-elk-stack.git
+git clone https://github.com/NahidCSERU/30-Days-Docker-for-DevOps-Challenge.git
 cd day30-elk-stack
 ```
 ### 2️⃣ Start Services
